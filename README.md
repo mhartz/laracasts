@@ -12,6 +12,8 @@ Repository for the laracasts lessons
 <p>Installing Laravel, teaching the basics of MVC architecture, scaffolding, databases, and configurations. Good place to start, but it doesn't go much beyond the Laravel documentation.</p>
 <ol>
   <li><a href="#1_1">Skipped</a></li>
+  <li><a href="#1_2">Skipped</a></li>
   <li><a href="#1_1">Skipped</a></li>
-  
+  <li><a href="#1_1">Skipped</a></li>
+  <li><a href="#1_1">Skipped</a></li>
 </ol>
