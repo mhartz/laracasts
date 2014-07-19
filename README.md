@@ -27,7 +27,7 @@ Repository for the laracasts lessons
 </p>
 <p>
   <b>Code Added:</b><br>
-  <code>
+  <pre><code>
     //get all users from the table
     Route::get('/', function() {
       $users = DB::table('users')->get();
@@ -41,7 +41,7 @@ Repository for the laracasts lessons
       
       dd($user); 
     });
-      </code>
+      </code></pre>
 </p>
 
 
@@ -53,7 +53,7 @@ Repository for the laracasts lessons
 </p>
 <p>
   <b>Code Added:</b><br>
-  <code>
+  <pre><code>
     // // Laravel ORM
     // Route::get('/', function() {
     //   // below statement is the same as $users = DB::table('users')->where('username', '!=', 'max')->get();
@@ -98,7 +98,7 @@ Repository for the laracasts lessons
       
       return $user;
     });
-  </code>
+  </code></pre>
 </p>
 
 
