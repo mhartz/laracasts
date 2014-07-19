@@ -3,7 +3,7 @@ laracasts
 
 Repository for the laracasts lessons
 <ol>
-  <li><a href="#from_scratch">Laravel From Scratch</a><li>
+  <li><a href="#laravel-from-scratch">Laravel From Scratch</a><li>
 </ol>
 
 
@@ -11,14 +11,12 @@ Repository for the laracasts lessons
 <h1 id="from_scratch">Laravel From Scratch</h1>
 <p>Installing Laravel, teaching the basics of MVC architecture, scaffolding, databases, and configurations. Good place to start, but it doesn't go much beyond the Laravel documentation.</p>
 <ol>
-  <li><a href="#1_1">Skipped</a></li>
-  <li><a href="#1_2">Skipped</a></li>
-  <li><a href="#1_3">Skipped</a></li>
   <li><a href="#Databases">Databases</a></li>
   <li><a href="#eloquent-basics">Eloquent Basics</a></li>
+  <li><a href="#blade-basics">Blade Basics</a></li>
 </ol>
 
-<h2 id="1_4">Databases</h2>
+<h2>Databases</h2>
 <p>Creating the database and connecting it to the Laravel Application.</p>
 <p>
   <b>Files changed:</b><br>
@@ -45,7 +43,7 @@ Repository for the laracasts lessons
 </p>
 
 
-<h2 id="1_5">Eloquent Basics</h2>
+<h2>Eloquent Basics</h2>
 <p>Explanation of Laravel's ORM, called eloquent. Makes writing database queries a cinch.</p>
 <p>
   <b>Files changed:</b><br>
@@ -105,7 +103,7 @@ Repository for the laracasts lessons
 
 
 
-<h2 id="1_6">Blade Basics</h2>
+<h2>Blade Basics</h2>
 <p>Laravel's templating engine. This lesson creates a simple layout for displaying users.</p>
 <p>
   <b>Files changed:</b><br>
