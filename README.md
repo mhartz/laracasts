@@ -11,7 +11,7 @@ Repository for the laracasts lessons
 <h1 id="from_scratch">Laravel From Scratch</h1>
 <p>Installing Laravel, teaching the basics of MVC architecture, scaffolding, databases, and configurations. Good place to start, but it doesn't go much beyond the Laravel documentation.</p>
 <ol>
-  <li><a href="#Databases">Databases</a></li>
+  <li><a href="#databases">Databases</a></li>
   <li><a href="#eloquent-basics">Eloquent Basics</a></li>
   <li><a href="#blade-basics">Blade Basics</a></li>
 </ol>
