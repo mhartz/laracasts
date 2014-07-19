@@ -14,8 +14,8 @@ Repository for the laracasts lessons
   <li><a href="#1_1">Skipped</a></li>
   <li><a href="#1_2">Skipped</a></li>
   <li><a href="#1_3">Skipped</a></li>
-  <li><a href="#1_4">Databases</a></li>
-  <li><a href="#1_5">Eleoquent</a></li>
+  <li><a href="#Databases">Databases</a></li>
+  <li><a href="#eloquent-basics">Eloquent Basics</a></li>
 </ol>
 
 <h2 id="1_4">Databases</h2>
