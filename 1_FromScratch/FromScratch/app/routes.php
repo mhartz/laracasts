@@ -34,8 +34,7 @@
 
 // // grab all users
 // Route::get('/', function() {
-//   $users = User::all();
-  
+//   $users = User::all();  
 //   return $users;
 // });
 
@@ -59,12 +58,63 @@
 
 
 // Update a user
-Route::get('/', function() {
-  $user = User::find(2);
+// Route::get('/', function() {
+//   $user = User::find(2);
   
   
-  $user->username = 'UpdatedName';
-  $user->save();
+//   $user->username = 'UpdatedName';
+//   $user->save();
   
-  return $user;
-});
+//   return $user;
+// });
+
+
+
+
+/*
+* Video 6/7: Blade Basics/Master Pages
+*/
+
+// Display all usersin the database
+// Route::get('users', function() {
+//   $users = User::all();
+  
+//   return View::make('users/index', ['users' => $users]);
+// });
+
+//Dynamic creation of users based on username
+// Route::get('users/{username}', function($username) {
+//   $user = User::whereUsername($username)->first(); // select * from users where username = USERNAME LIMIT 1
+  
+//   return View::make('users/show', ['user' => $user]);
+// });
+
+
+
+/*
+* Video 8: From Closures to Controllers
+*/
+
+// Route::get('users', 'UsersController@index');
+// Route::get('users/{username}', 'UsersController@show');
+
+
+/*
+* Video 9: Recourceful Routing
+*/
+
+// using route resource
+Route::resource('users', 'UsersController');
+
+
+
+
+
+
+
+
+
+
+
+
+

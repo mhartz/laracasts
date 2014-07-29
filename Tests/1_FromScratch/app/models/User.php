@@ -8,16 +8,6 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 class User extends Eloquent implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait;
-	
-	public $timestamps = false;
-	protected $fillable = ['username', 'password'];
-	
-	public static $rules = [
-		'username' => 'required|unique:users|min:4',
-		'password' => 'required|min:5'
-	];
-	
-	public $errors;
 
 	/**
 	 * The database table used by the model.
@@ -32,16 +22,5 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 * @var array
 	 */
 	protected $hidden = array('password', 'remember_token');
-	
-	public function isValid()
-	{
-		$validation = Validator::make($this->attributes, static::$rules);
-		
-		if ($validation->passes()) {
-			return true;
-		}
-		
-		$this->errors = $validation->messages();
-	}
 
 }
