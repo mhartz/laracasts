@@ -39,7 +39,6 @@ class UsersController extends \BaseController {
 		}
 		else {
 			$this->user->save();
-			
 			return Redirect::route('users.index');
 		}
 	}
